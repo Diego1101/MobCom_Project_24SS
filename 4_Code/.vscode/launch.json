@@ -1,0 +1,55 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug V2X GUI Application",
+            "type": "python",
+            "request": "launch",
+            "program": "run.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/scripts/python",
+            "args": []
+        },
+        {
+            "name": "Debug V2X Application",
+            "type": "python",
+            "request": "launch",
+            "program": "run.py",
+            "args": [
+                "--no-sumo-gui",
+                "--no-logging",
+                "--scenario", "esslingen",
+                "--pseudonym-change", "periodical",
+                "--strategy", "attacker_service",
+                "--jobs", "1"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/scripts/python",
+            "subProcess": false,
+        },
+        {
+            "name": "Debug Evaluation",
+            "type": "python",
+            "request": "launch",
+            "program": "evaluate.py",
+            "args": [
+                "${workspaceFolder}/scenarios/esslingen/strat=attacker_service+pcs=no_change+traffic=100.0+t=180.0",
+                "--clean",
+                "-s",
+                "-c",
+                "-a",
+                "-m",
+                "--jobs", "1"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/scripts/python",
+            "subProcess": false,
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+@startuml CPNPCS
+skinparam classAttributeIconSize 0
+skinparam backgroundcolor transparent
+skinparam dpi 200
+
+class CooperativePCService
+{
+    #_neighborThreshold : uint16_t
+    #_neighborCount : uint16_t
+    #_neighborRadius : double
+    #_readyForPC : bool
+
+    +initialize() : void
+    +indicate(const vanetza::btp::DataIndication&, std::unique_ptr<vanetza::UpPacket>) : void
+    #triggerConditionsAreMet() : bool
+}
+
+@enduml

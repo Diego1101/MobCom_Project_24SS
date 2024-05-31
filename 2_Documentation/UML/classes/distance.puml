@@ -1,0 +1,15 @@
+@startuml DistancePCS
+skinparam classAttributeIconSize 0
+skinparam backgroundcolor transparent
+skinparam dpi 200
+
+class DistancePCService
+{
+    -_pseudonymChangeDistance : double
+    -_lastPosition : artery::Position
+
+    +initialize() : void
+    #triggerConditionsAreMet() : bool
+}
+
+@enduml

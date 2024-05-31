@@ -1,0 +1,15 @@
+@startuml PeriodicalPCS
+skinparam classAttributeIconSize 0
+skinparam backgroundcolor transparent
+skinparam dpi 200
+
+class PeriodicalPCService
+{
+    -_pseudonymLifetime : double
+    -_lastPseudonymChange : double
+
+    +initialize() : void
+    #triggerConditionsAreMet() : bool
+}
+
+@enduml

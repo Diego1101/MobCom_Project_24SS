@@ -1,0 +1,18 @@
+{
+    "Sprint Meeting Protocol": {
+        "prefix": "sprint",
+        "scope": "markdown",
+        "body": [
+            "# Sprint Meeting ${TM_FILENAME_BASE/^.*_(.*)$/$1/}",
+            "",
+            "## Agenda",
+            "",
+            "- [ ] $1",
+            "",
+            "## Protocol",
+            "",
+            ""
+        ],
+        "description": "Sprint Meeting Protocol"
+    }
+}

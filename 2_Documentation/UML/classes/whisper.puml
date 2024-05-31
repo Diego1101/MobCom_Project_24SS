@@ -1,0 +1,22 @@
+@startuml WhisperPCS
+skinparam classAttributeIconSize 0
+skinparam backgroundcolor transparent
+skinparam dpi 200
+
+class WhisperPCService
+{
+    -_maxSpeed : vanetza::units::Velocity
+    -_isClose : bool
+    -_roadNeighborRadius : double
+    -_generalNeighborRadius : double
+    -_closeNeighborRadius : double
+    -_counter : int16_t
+    -_counterDefault : int16_t
+
+    +initialize() : void
+    +indicate(const vanetza::btp::DataIndication&, std::unique_ptr<vanetza::UpPacket>) : void
+    +trigger() : void
+    #triggerConditionsAreMet() : bool
+}
+
+@enduml

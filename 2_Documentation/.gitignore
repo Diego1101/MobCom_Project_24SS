@@ -1,0 +1,7 @@
+# Ignore drawio backup and temporary files
+*.bkp
+*.dtmp
+
+# Ignore video files
+*.gif
+*.mp4

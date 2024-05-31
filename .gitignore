@@ -1,0 +1,6 @@
+*rou*.xml
+*.trips.xml
+dualog
+*.user
+build-*/
+.idea

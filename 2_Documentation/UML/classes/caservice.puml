@@ -1,0 +1,29 @@
+@startuml CaService
+skinparam classAttributeIconSize 0
+skinparam backgroundcolor transparent
+skinparam dpi 200
+set namespaceSeparator ::
+
+namespace artery #DDDDDD {
+    class artery::ItsG5BaseService {
+        {field} ...
+        #initialize() : void
+        #indicate(const vanetza::btp::DataIndication&, std::unique_ptr<vanetza::UpPacket>) : void
+        +trigger() : void
+        {method} ...
+    }
+
+    class artery::CaService  {
+        {field} ...
+        +initialize() : void
+        +indicate(const vanetza::btp::DataIndication&, std::unique_ptr<vanetza::UpPacket>) : void
+        +trigger() : void
+        #sendCam(const omnetpp::SimTime&) : void
+        {method} ...
+    }
+
+    artery::CaService -u-|> artery::ItsG5BaseService
+}
+
+
+@enduml

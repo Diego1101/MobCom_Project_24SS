@@ -1,0 +1,27 @@
+@startuml BasePCService
+skinparam classAttributeIconSize 0
+' skinparam backgroundcolor transparent
+skinparam dpi 300
+hide empty members
+
+class CaService
+
+class BasePCService
+{
+    +initialize() : void
+    +trigger() : void
+    #triggerConditionsAreMet() : bool
+    #sendCamConditionsAreMet() : bool
+    #changePseudonym() : void
+    #logPseudonymChange(uint32_t newPseudonym, uint32_t prevPseudonym) : void
+}
+
+BasePCService -u-|> CaService
+
+PeriodicalPCService -u-|> BasePCService
+DistancePCService -u-|> BasePCService
+SLOWPCService -u-|> BasePCService
+WhisperPCService -u-|> BasePCService
+CooperativePCService -u-|> BasePCService
+
+@enduml

@@ -1,0 +1,19 @@
+@startuml SlowPCS
+skinparam classAttributeIconSize 0
+skinparam backgroundcolor transparent
+skinparam dpi 200
+
+class SLOWPCService
+{
+    #_pseudonymLifetime : double
+    #_slowThreshold : double
+    #_lastPseudonymChange : omnetpp::SimTime
+
+    +initialize() : void
+    +indicate(const vanetza::btp::DataIndication&, std::unique_ptr<vanetza::UpPacket>) : void
+    #triggerConditionsAreMet() : bool
+    #sendCamConditionsAreMet() : bool
+    #isSlow() : bool
+}
+
+@enduml
