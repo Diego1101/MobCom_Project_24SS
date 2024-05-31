@@ -1,0 +1,78 @@
+nova@nova:~$ ssh user@fe80::6e5:48ff:fe20:1D2C%enx00e04c6807aa
+user@fe80::6e5:48ff:fe20:1d2c%enx00e04c6807aa's password: 
+Welcome to Cohda Wireless MK5 Radio (MK5)
+
+ * Documentation:  https://support.cohdawireless.com
+
+Last login: Wed Jan  5 23:01:16 2022 from fe80::25d5:3ff:c9d2:4192%eth0
+root@MK5:~# cd /opt/cohda/test/
+root@MK5:/opt/cohda/test# ./runtest_monitor.sh 180 192.168.10.10 target
+Using: ./runtest_monitor.sh 180 192.168.10.10 target
+chconfig: /lib/arm-linux-gnueabihf/libnl-genl-3.so.200: no version information available (required by chconfig)
+chconfig: /lib/arm-linux-gnueabihf/libnl-3.so.200: no version information available (required by chconfig)
+Interface:         wave-raw
+Channel: CCH
+Radio: A
+ChannelNumber:  180
+DefaultMCS:     10
+DefaultTxPower: 40
+DefaultTRC:     0
+DefaultTPC:     0
+Bandwidth:      10
+DualTxControl:  3
+ChannelUtilisationPeriod: 49
+TxAntenna:      3
+RxAntenna:      3
+RxMACAddr: 00:00:00:00:00:00
+Filter:            0x88b6
+MAC Address: 00:00:00:00:00:00
+chconfig: /lib/arm-linux-gnueabihf/libnl-genl-3.so.200: no version information available (required by chconfig)
+chconfig: /lib/arm-linux-gnueabihf/libnl-3.so.200: no version information available (required by chconfig)
+  ChannelNumber:  180
+  DefaultMCS:     10
+  DefaultTxPower: 40
+  DefaultTRC:     0
+  DefaultTPC:     0
+  Bandwidth:      10
+  DualTxControl:  3
+  ChannelUtilisationPeriod: 49
+  TxAntenna:      3
+  RxAntenna:      3
+  RxMACAddr: 00:00:00:00:00:00
+  Filter:         0x88b6
+--RemoteHost 192.168.10.10
+--RemotePort 37008
+--SnapLen 4096
+--BufLen 4194304
+--UpdatePeriod 0
+--Interface cw-mon-rxa
+--HdrLen 46
+--HdrTag 0x00
+--Meta
+--TzspForwardEnable
+--LogMode DISABLED
+
+	RangeTablePurge: 0
+	BroadcastPort: 0
+
+RCap_Forwarding: PcapFd is 4
+^CRCap_Forwarding: macp ExitProgram !=0 (reason=0)
+rcap: [cw-mon-rxa] Rx:159 RxChanEst:0 RxNoChanEst:0 RxErr:0 Tx:159 TxErr:0 TxPos:0 BuffAllocErr:0 MinPkt:146 MaxPkt:395 ps_recv:160 ps_drop:0, Filt:0 RxPwrA:-47 RxPwrB:-48
+CCH: 
+  RxReport: /dev/null
+  RxLog:    /dev/null
+SCH: 
+  RxReport: /dev/null
+  RxLog:    /dev/null
+CCH: 
+  RxReport: /dev/null
+  RxLog:    /dev/null
+SCH: 
+  RxReport: /dev/null
+  RxLog:    /dev/null
+root@MK5:/opt/cohda/test# exit
+logout
+user@MK5:~$ exit
+logout
+Connection to fe80::6e5:48ff:fe20:1d2c%enx00e04c6807aa closed.
+nova@nova:~$

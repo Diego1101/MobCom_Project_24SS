@@ -1,0 +1,72 @@
+# Flake8 linter configuration
+# Author: Martin Dell
+# Date: 16.11.2022
+#
+# Based on https://gist.github.com/krnd/1f3fb6c05af365977e486c47cb7b4a72
+
+[flake8]
+
+# Specify the number of subprocesses that Flake8 will use to run checks in parallel.
+jobs = auto
+
+# Provide a comma-separated list of glob patterns to exclude from checks.
+exclude =
+    .git,
+    __pycache__,
+    build,
+    artery
+# Provide a comma-separate list of glob patterns to include for checks.
+filename =
+    *.py
+
+# Maximum allowed McCabe complexity
+max-complexity = 10
+
+# Toggle whether pycodestyle should enforce matching the indentation of the opening bracket’s line.
+# incluences E131 and E133
+hang-closing = True
+
+# Set the maximum length that any line (with some exceptions) may be.
+max-line-length = 300
+
+# Allow only single quote for strings
+inline-quotes = single
+
+# Allow escaping quotes
+avoid-escape = False
+
+# ERROR CODES
+#
+# E/W  - PEP8 errors/warnings (pycodestyle)
+# F    - linting errors (pyflakes)
+# C    - McCabe complexity error (mccabe)
+# Q0   - Allow only single quote (flake8-quotes)
+# N    - pep8 naming style
+# SIM  - Simplify (flake8-simplify)
+#
+# E121 - Continuation line under-indented for hanging indent
+# E126 - Continuation line over-indented for hanging indent
+# E133 - Closing bracket is missing indentation
+# E261 - At least two spaces before inline comment
+# E303 - Too many blank lines
+# W503 - Line break occurred before a binary operator
+#
+
+# Specify a list of codes to ignore.
+ignore =
+    E121,
+    E126,
+    E133,
+    E261,
+    E303,
+    W503
+
+# Specify the list of error codes you wish Flake8 to report.
+select =
+    E,
+    W,
+    F,
+    C,
+    Q0,
+    N,
+    SIM

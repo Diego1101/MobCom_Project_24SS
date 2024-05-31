@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services>
+    <service type="$pseudo_service$">
+        <listener port="2001" />
+        <filters>
+            <name pattern="$cfg.attacker_id$" match="inverse"/>
+        </filters>
+    </service>
+    <service type="CaAttackerService" name="CAA">
+        <listener port="2001" />
+        <filters>
+            <name pattern="$cfg.attacker_id$"/>
+        </filters>
+    </service>
+</services>

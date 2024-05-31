@@ -1,0 +1,193 @@
+nova@nova:~$ ssh user@fe80::6e5:48ff:fe20:1D48%enx00e04c6801dc
+user@fe80::6e5:48ff:fe20:1d48%enx00e04c6801dc's password: 
+Welcome to Cohda Wireless MK5 Radio (MK5)
+
+ * Documentation:  https://support.cohdawireless.com
+
+Last login: Wed Jan  5 23:04:10 2022 from fe80::afbf:edb:287d:579e%eth0
+root@MK5:~# cd /opt/cohda/application/
+root@MK5:/opt/cohda/application# ./etsa -c ./receiver_ets.conf
+main FNSTART: App Init...
+App Init...
+Conf2_ParseFile(./ets.conf,0): 0x40
+Defaults file "./ets.conf" not available
+Conf: ./receiver_ets.conf opened
+Unable to create "/mnt/ubi/log"
+Log directory is /tmp/log/2022.0105.2350_C04E548201D48-0000_3152
+libPlat Init...
+libITSNet Init...
+RUNNING...
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871623,9.2112381 TST:1575757727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871609,9.2112342 TST:1575760727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871591,9.2112273 TST:1575764727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871581,9.2112243 TST:1575767727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871575,9.2112195 TST:1575771727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871571,9.2112166 TST:1575774727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871566,9.2112100 TST:1575777727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871556,9.2112067 TST:1575780727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871545,9.2111962 TST:1575784727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871542,9.2111851 TST:1575788727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871546,9.2111809 TST:1575791727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871551,9.2111789 TST:1575794727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871568,9.2111798 TST:1575797727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871601,9.2111885 TST:1575801727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871640,9.2112013 TST:1575805727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871677,9.2112127 TST:1575808727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871710,9.2112217 TST:1575811727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871749,9.2112294 TST:1575814727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871783,9.2112385 TST:1575817727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871821,9.2112447 TST:1575820727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871864,9.2112520 TST:1575824727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871897,9.2112524 TST:1575827727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871768,9.2112352 TST:1575847728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871743,9.2112383 TST:1575850728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871710,9.2112450 TST:1575854728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871688,9.2112488 TST:1575857728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871665,9.2112492 TST:1575861728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871634,9.2112501 TST:1575865728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871608,9.2112516 TST:1575868728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871588,9.2112552 TST:1575872728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871572,9.2112567 TST:1575876728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871563,9.2112559 TST:1575879728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871548,9.2112551 TST:1575882728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871538,9.2112468 TST:1575886728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871532,9.2112386 TST:1575889728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871560,9.2112278 TST:1575893728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871567,9.2112235 TST:1575896728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871560,9.2112208 TST:1575899728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871572,9.2112175 TST:1575903728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871581,9.2112162 TST:1575906728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871578,9.2112167 TST:1575909728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871586,9.2112166 TST:1575912728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871587,9.2112113 TST:1575916727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871590,9.2112084 TST:1575919727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871600,9.2112064 TST:1575922727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871609,9.2112031 TST:1575926727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871619,9.2112024 TST:1575929727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871620,9.2112020 TST:1575932727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871611,9.2112057 TST:1575936727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871602,9.2112116 TST:1575940727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871600,9.2112182 TST:1575943727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871584,9.2112284 TST:1575947727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871571,9.2112352 TST:1575950727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871557,9.2112416 TST:1575954727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871571,9.2112457 TST:1575957727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871599,9.2112500 TST:1575960727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871612,9.2112574 TST:1575964727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871607,9.2112607 TST:1575967727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871597,9.2112643 TST:1575971727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871589,9.2112670 TST:1575974727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871583,9.2112687 TST:1575978727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871582,9.2112677 TST:1575981727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871584,9.2112632 TST:1575984727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871601,9.2112543 TST:1575988727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871625,9.2112449 TST:1575991727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871657,9.2112367 TST:1575994727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871694,9.2112272 TST:1575997727
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871741,9.2112149 TST:1576001728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871765,9.2112117 TST:1576004728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871784,9.2112110 TST:1576007728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871815,9.2112089 TST:1576011728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871851,9.2112048 TST:1576014728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871880,9.2111997 TST:1576018728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871894,9.2111938 TST:1576021728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871923,9.2111882 TST:1576024728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871967,9.2111704 TST:1576028728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871991,9.2111636 TST:1576031728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7872004,9.2111577 TST:1576034728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7872000,9.2111518 TST:1576038728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871992,9.2111486 TST:1576041728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871965,9.2111451 TST:1576044728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+Beacon generated GN_ADDR 0x140004e548201d4a @ 48.7871943,9.2111430 TST:1576048728
+Packet transmitted Transport:BEACON NH:ANY Len:36 (Dest 0xffffffffffff)
+^CExiting on signal 2
+libITSNet Exit...
+libPlat Exit...
+Exit: Done
+root@MK5:/opt/cohda/application# exit
+logout
+user@MK5:~$ exit
+logout
+Connection to fe80::6e5:48ff:fe20:1d48%enx00e04c6801dc closed.
+nova@nova:~$

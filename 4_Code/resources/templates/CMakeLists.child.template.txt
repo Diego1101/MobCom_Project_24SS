@@ -1,0 +1,27 @@
+# CMake file for single scenario. compiles strategy files
+
+# @author  Marek Parucha (WS21/22)
+# @author  Janis Latus (WS22/23)
+# @date    27.12.2022
+
+add_artery_feature($cfg.scenario$
+    $ned_base_directory$/LoggerService.cc
+    $ned_base_directory$/CaAttackerService.cc
+    $ned_base_directory$/HWAgent.cpp
+    $ned_base_directory$/SLOWPCService.cc
+    $ned_base_directory$/BasePCService.cc
+    $ned_base_directory$/PeriodicalPCService.cc
+    $ned_base_directory$/DistancePCService.cc
+    $ned_base_directory$/WhisperPCService.cc
+    $ned_base_directory$/CooperativePCService.cc
+)
+
+add_opp_run($cfg.scenario$ CONFIG "$simulation_name$/omnetpp.ini" NED_FOLDERS $ned_base_directory$)
+
+if (NOT TARGET cohda)
+    add_artery_feature(cohda
+        $ned_base_directory$/CohdaDataRequest.cpp
+        $ned_base_directory$/CohdaDataIndication.cpp
+    )
+endif()
+target_link_libraries($cfg.scenario$ PUBLIC cohda)

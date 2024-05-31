@@ -1,0 +1,39 @@
+nova@nova:~$ ssh user@fe80::6e5:48ff:fe20:1D2C%enx00e04c6807aa
+user@fe80::6e5:48ff:fe20:1d2c%enx00e04c6807aa's password: 
+Welcome to Cohda Wireless MK5 Radio (MK5)
+
+ * Documentation:  https://support.cohdawireless.com
+
+Last login: Wed Jan  5 22:45:06 2022 from fe80::25d5:3ff:c9d2:4192%eth0
+root@MK5:~# cd /opt/cohda/application/exampleETSI
+root@MK5:/opt/cohda/application/exampleETSI# ./exampleETSI -f obu.cfg -c obu.conf
+
+Starting Example ETSI Application...
+Reading app configuration from obu.cfg...
+Reading stack configuration from obu.conf...
+[1641423177.411574705] App_Init FNSTART: (0x54b62e00)
+[1641423177.412816431] App_Init: CAN: 0
+[1641423177.413221118] App_Init: CANVSC3: 1
+[1641423177.413613137] App_Init: CANVState: 1
+[1641423177.414000489] App_Init: ITS: 1
+[1641423177.414351172] App_Init FNEND: () = 0
+Initialising and starting stack components...
+Conf2_ParseFile(obu.conf,0): 0x10
+Conf: obu.conf opened
+Conf: ./board.conf opened
+Unable to create "/mnt/ubi/log"
+Log directory is /tmp/log/2022.0105.2252_C04E548201D2C-0000_13169
+libPlat Init...
+libITSNet Init...
+libITSFL Init...
+RUNNING...
+^CExiting on signal 2
+libITSFL Exit...
+libITSNet Exit...
+libPlat Exit...
+root@MK5:/opt/cohda/application/exampleETSI# exit
+logout
+user@MK5:~$ exit
+logout
+Connection to fe80::6e5:48ff:fe20:1d2c%enx00e04c6807aa closed.
+nova@nova:~$

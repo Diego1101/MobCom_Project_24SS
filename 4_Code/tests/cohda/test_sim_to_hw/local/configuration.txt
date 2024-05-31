@@ -1,0 +1,49 @@
+nova@nova:~$ ifconfig
+docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        ether 02:42:08:96:2c:44  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enx00e04c6801dc: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.11.10  netmask 255.255.255.0  broadcast 192.168.11.255
+        inet6 fe80::afbf:edb:287d:579e  prefixlen 64  scopeid 0x20<link>
+        ether 00:e0:4c:68:01:dc  txqueuelen 1000  (Ethernet)
+        RX packets 1495  bytes 640859 (640.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 2135  bytes 269333 (269.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enx00e04c6807aa: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.10.10  netmask 255.255.255.0  broadcast 192.168.10.255
+        inet6 fe80::25d5:3ff:c9d2:4192  prefixlen 64  scopeid 0x20<link>
+        ether 00:e0:4c:68:07:aa  txqueuelen 1000  (Ethernet)
+        RX packets 1000  bytes 715791 (715.7 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1167  bytes 153439 (153.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 285549  bytes 44171852 (44.1 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 285549  bytes 44171852 (44.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp0s20f3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.203  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 2a02:8070:4be:4d20::db7  prefixlen 128  scopeid 0x0<global>
+        inet6 2a02:8070:4be:4d20:24c6:46bc:9599:ef8e  prefixlen 64  scopeid 0x0<global>
+        inet6 2a02:8070:4be:4d20:4a79:ead8:6bb:3b53  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::f4b8:a87f:9c5f:7f0f  prefixlen 64  scopeid 0x20<link>
+        ether 98:af:65:ca:76:c3  txqueuelen 1000  (Ethernet)
+        RX packets 4305286  bytes 5239492587 (5.2 GB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1282256  bytes 242607555 (242.6 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+nova@nova:~$

@@ -1,0 +1,86 @@
+nova@nova:~$ ssh user@fe80::6e5:48ff:fe20:1D48%enx00e04c6801dc
+user@fe80::6e5:48ff:fe20:1d48%enx00e04c6801dc's password: 
+Welcome to Cohda Wireless MK5 Radio (MK5)
+
+ * Documentation:  https://support.cohdawireless.com
+
+Last login: Wed Jan  5 22:52:40 2022 from fe80::afbf:edb:287d:579e%eth0
+root@MK5:~# ifconfig
+cw-llc0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 2400
+        unspec 72-80-50-3D-AE-EA-00-00-00-00-00-00-00-00-00-00  txqueuelen 0  (UNSPEC)
+        RX packets 1269  bytes 334568 (334.5 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1741  bytes 85066 (85.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+dot3: flags=4291<UP,BROADCAST,RUNNING,NOARP,MULTICAST>  mtu 1500
+        ether 00:44:4f:54:33:00  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+dot4: flags=4291<UP,BROADCAST,RUNNING,NOARP,MULTICAST>  mtu 1500
+        ether 00:44:4f:54:34:00  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.11.11  netmask 255.255.255.0  broadcast 192.168.11.255
+        inet6 fe80::6e5:48ff:fe20:1d48  prefixlen 64  scopeid 0x20<link>
+        ether 04:e5:48:20:1d:48  txqueuelen 1000  (Ethernet)
+        RX packets 1569  bytes 205218 (205.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1084  bytes 209887 (209.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth0:1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 169.254.29.72  netmask 255.255.0.0  broadcast 169.254.255.255
+        ether 04:e5:48:20:1d:48  txqueuelen 1000  (Ethernet)
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 0  (Local Loopback)
+        RX packets 24349  bytes 4156006 (4.1 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 24349  bytes 4156006 (4.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wave-data: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::70e5:b0ff:fe2d:2a4f  prefixlen 64  scopeid 0x20<link>
+        ether 72:e5:b0:2d:2a:4f  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 8  dropped 8 overruns 0  carrier 0  collisions 0
+
+wave-mgmt: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 2100
+        unspec 04-E5-48-20-1D-4A-30-30-00-00-00-00-00-00-00-00  txqueuelen 0  (UNSPEC)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wave-raw: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 2700
+        unspec 04-E5-48-20-1D-4B-00-00-00-00-00-00-00-00-00-00  txqueuelen 0  (UNSPEC)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wave-sync: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 12
+        unspec DA-80-C0-A6-91-55-00-00-00-00-00-00-00-00-00-00  txqueuelen 0  (UNSPEC)
+        RX packets 678  bytes 8136 (8.1 KB)
+        RX errors 0  dropped 678  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+root@MK5:~# exit
+logout
+user@MK5:~$ exit
+logout
+Connection to fe80::6e5:48ff:fe20:1d48%enx00e04c6801dc closed.
+nova@nova:~$

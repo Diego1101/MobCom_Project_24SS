@@ -1,0 +1,69 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "extensions": {
+        "recommendations": [
+            "editorconfig.editorconfig",
+            "ms-vscode.cpptools",
+            "ms-python.python",
+            "njpwerner.autodocstring",
+            "ms-python.vscode-pylance",
+            "kevinrose.vsc-python-indent",
+            "mechatroner.rainbow-csv",
+            "schrej.omnetpp-ned"
+        ]
+    },
+	"settings": {
+        "files.eol": "\n",
+        "C_Cpp.default.cppStandard": "c++11",
+        "python.analysis.diagnosticMode": "workspace",
+        "python.analysis.typeCheckingMode": "basic",
+        "python.analysis.exclude": [
+            "**/artery",
+            "**/build",
+            "**/tests/cohda"
+        ],
+        "python.analysis.extraPaths": [
+            "${workspaceFolder}/scripts/python"
+        ],
+        "python.linting.flake8Enabled": true,
+        "python.linting.enabled": true,
+        "python.linting.flake8Args": [
+            "--config", "${workspaceFolder}/scripts/python/.flake8"
+        ],
+        "files.exclude": {
+            "**/.git": true,
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true,
+            "**/Thumbs.db": true,
+            "**/__pycache__": true,
+        },
+        "search.exclude": {
+            "**/build": true,
+            "**/__pycache__": true,
+        },
+        "files.associations": {
+            "*.sumocfg": "xml"
+        }
+	},
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "Build Project",
+                "command": "${workspaceFolder}/scripts/bash/build_project.sh",
+                "type": "shell",
+                "group": "build"
+            }
+        ]
+    },
+    "launch": {
+        "version": "0.2.0",
+        "configurations": []
+    }
+}
